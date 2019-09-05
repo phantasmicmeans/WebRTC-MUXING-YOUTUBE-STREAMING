@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.debug.1269009735">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.debug.1269009735" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.debug.1269009735" name="Debug" parent="cdt.managedbuild.config.gnu.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.debug.1269009735." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.debug.852965038" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.debug.1209784611" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.debug"/>
+							<builder buildPath="${workspace_loc:/WebRTC_SFU_OldLib}/Debug" id="cdt.managedbuild.target.gnu.builder.exe.debug.49108285" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1170063352" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2029647380" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug">
+								<option id="gnu.cpp.compiler.exe.debug.option.optimization.level.572427672" name="Optimization Level" superClass="gnu.cpp.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.max" id="gnu.cpp.compiler.exe.debug.option.debugging.level.1658662079" name="Debug Level" superClass="gnu.cpp.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.136661460" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/base/third_party/libevent/linux/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/gen/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/gen/third_party/yasm/gen_include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/abseil-cpp/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/boringssl/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/chromium/config/ChromeOS/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/include/freetype-custom-config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/custom/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googlemock/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googletest/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googletest/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/harfbuzz-ng/src/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/icu/source/common/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/icu/source/i18n/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/overrides/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/source/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/source/src/lib_json/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libjpeg_turbo/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libpng/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/crypto/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/config/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/libvpx/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libyuv/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/api/svc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/arm/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/x86/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/core/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/core/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/plus/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/plus/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/interface/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/adaptivequantization/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/backgrounddetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/common/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/complexityanalysis/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/denoise/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/downsample/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/imagerotate/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/scenechangedetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/scrolldetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/vaacalc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/celt/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/silk/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/silk/float/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/usrsctplib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/yasm/source/config/linux/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/yasm/source/patched-yasm/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/zlib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/chromium/config/Chrome/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/opencv4"/>
+									<listOptionValue builtIn="false" value="/usr/include/jsoncpp"/>
+									<listOptionValue builtIn="false" value="/usr/include/glib-2.0"/>
+									<listOptionValue builtIn="false" value="/usr/lib/x86_64-linux-gnu/glib-2.0/include/"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.966420145" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ABSL_ALLOCATOR_NOTHROW=1"/>
+									<listOptionValue builtIn="false" value="ADLER32_SIMD_SSSE3"/>
+									<listOptionValue builtIn="false" value="BORINGSSL_ALLOW_CXX_RUNTIME"/>
+									<listOptionValue builtIn="false" value="BORINGSSL_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="BORINGSSL_NO_STATIC_INITIALIZER"/>
+									<listOptionValue builtIn="false" value="BWE_TEST_LOGGING_COMPILE_TIME_ENABLE=0"/>
+									<listOptionValue builtIn="false" value="CHROMIUM_BUILD"/>
+									<listOptionValue builtIn="false" value="CHROMIUM_RESTRICT_VISIBILITY"/>
+									<listOptionValue builtIn="false" value="CPU_INFO_BY_ASM"/>
+									<listOptionValue builtIn="false" value="CRC32_SIMD_SSE42_PCLMUL"/>
+									<listOptionValue builtIn="false" value="CR_CLANG_REVISION=&quot;346388-5&quot;"/>
+									<listOptionValue builtIn="false" value="DYNAMIC_ANNOTATIONS_ENABLED=1"/>
+									<listOptionValue builtIn="false" value="FFMPEG_CONFIGURATION=NULL"/>
+									<listOptionValue builtIn="false" value="FIELDTRIAL_TESTING_ENABLED"/>
+									<listOptionValue builtIn="false" value="FT2_BUILD_LIBRARY"/>
+									<listOptionValue builtIn="false" value="FT_CONFIG_CONFIG_H=&quot;freetype-custom-config/ftconfig.h&quot;"/>
+									<listOptionValue builtIn="false" value="FT_CONFIG_MODULES_H=&quot;freetype-custom-config/ftmodule.h&quot;"/>
+									<listOptionValue builtIn="false" value="FT_CONFIG_OPTIONS_H=&quot;freetype-custom-config/ftoption.h&quot;"/>
+									<listOptionValue builtIn="false" value="FULL_SAFE_BROWSING"/>
+									<listOptionValue builtIn="false" value="GLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_32"/>
+									<listOptionValue builtIn="false" value="GLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_26"/>
+									<listOptionValue builtIn="false" value="GTEST_API_"/>
+									<listOptionValue builtIn="false" value="GTEST_DISABLE_PRINT_STACK_TRACE"/>
+									<listOptionValue builtIn="false" value="GTEST_HAS_ABSL=1"/>
+									<listOptionValue builtIn="false" value="GTEST_HAS_POSIX_RE=0"/>
+									<listOptionValue builtIn="false" value="GTEST_HAS_TR1_TUPLE=0"/>
+									<listOptionValue builtIn="false" value="GTEST_LANG_CXX11=1"/>
+									<listOptionValue builtIn="false" value="GTEST_RELATIVE_PATH"/>
+									<listOptionValue builtIn="false" value="HAVE_ALLOCA_H"/>
+									<listOptionValue builtIn="false" value="HAVE_ARPA_INET_H"/>
+									<listOptionValue builtIn="false" value="HAVE_AV_CONFIG_H"/>
+									<listOptionValue builtIn="false" value="HAVE_CONFIG_H"/>
+									<listOptionValue builtIn="false" value="HAVE_DLOPEN=0"/>
+									<listOptionValue builtIn="false" value="HAVE_FCNTL_H"/>
+									<listOptionValue builtIn="false" value="HAVE_ICU"/>
+									<listOptionValue builtIn="false" value="HAVE_ICU_BUILTIN"/>
+									<listOptionValue builtIn="false" value="HAVE_INT16_T"/>
+									<listOptionValue builtIn="false" value="HAVE_INT32_T"/>
+									<listOptionValue builtIn="false" value="HAVE_INT8_T"/>
+									<listOptionValue builtIn="false" value="HAVE_INTEL_ATOMIC_PRIMITIVES"/>
+									<listOptionValue builtIn="false" value="HAVE_INTTYPES_H"/>
+									<listOptionValue builtIn="false" value="HAVE_JPEG"/>
+									<listOptionValue builtIn="false" value="HAVE_LRINT"/>
+									<listOptionValue builtIn="false" value="HAVE_LRINTF"/>
+									<listOptionValue builtIn="false" value="HAVE_NETINET_IN_H"/>
+									<listOptionValue builtIn="false" value="HAVE_OT"/>
+									<listOptionValue builtIn="false" value="HAVE_SCTP"/>
+									<listOptionValue builtIn="false" value="HAVE_STDINT_H"/>
+									<listOptionValue builtIn="false" value="HAVE_STDLIB_H"/>
+									<listOptionValue builtIn="false" value="HAVE_STRING_H"/>
+									<listOptionValue builtIn="false" value="HAVE_SYS_TYPES_H"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT16_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT32_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT64_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT8_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UNISTD_H"/>
+									<listOptionValue builtIn="false" value="HAVE_WEBRTC_VIDEO"/>
+									<listOptionValue builtIn="false" value="HAVE_WEBRTC_VOICE"/>
+									<listOptionValue builtIn="false" value="HB_NO_MMAP"/>
+									<listOptionValue builtIn="false" value="ICU_UTIL_DATA_IMPL=ICU_UTIL_DATA_FILE"/>
+									<listOptionValue builtIn="false" value="INFLATE_CHUNK_READ_64LE"/>
+									<listOptionValue builtIn="false" value="INFLATE_CHUNK_SIMD_SSE2"/>
+									<listOptionValue builtIn="false" value="JSON_USE_EXCEPTION=0"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="NON_WINDOWS_DEFINE"/>
+									<listOptionValue builtIn="false" value="NO_GETENV"/>
+									<listOptionValue builtIn="false" value="NVALGRIND"/>
+									<listOptionValue builtIn="false" value="OPENSSL"/>
+									<listOptionValue builtIn="false" value="OPENSSL_SMALL"/>
+									<listOptionValue builtIn="false" value="OPUS_BUILD"/>
+									<listOptionValue builtIn="false" value="OPUS_EXPORT"/>
+									<listOptionValue builtIn="false" value="OPUS_HAVE_RTCD"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_AVX"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_SSE"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_SSE2"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_SSE4_1"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_PRESUME_SSE"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_PRESUME_SSE2"/>
+									<listOptionValue builtIn="false" value="PACKAGE_STRING=&quot;libsrtp2 2.1.0-pre&quot;"/>
+									<listOptionValue builtIn="false" value="PACKAGE_VERSION=&quot;2.1.0-pre&quot;"/>
+									<listOptionValue builtIn="false" value="PDFIUM_REQUIRED_MODULES"/>
+									<listOptionValue builtIn="false" value="PIC"/>
+									<listOptionValue builtIn="false" value="PNG_INTEL_SSE_OPT=1"/>
+									<listOptionValue builtIn="false" value="PNG_SET_OPTION_SUPPORTED"/>
+									<listOptionValue builtIn="false" value="RTC_ENABLE_VP9"/>
+									<listOptionValue builtIn="false" value="SAFE_BROWSING_CSD"/>
+									<listOptionValue builtIn="false" value="SAFE_BROWSING_DB_LOCAL"/>
+									<listOptionValue builtIn="false" value="SCTP_PROCESS_LEVEL_LOCKS"/>
+									<listOptionValue builtIn="false" value="SCTP_SIMPLE_ALLOCATOR"/>
+									<listOptionValue builtIn="false" value="SCTP_USE_OPENSSL_SHA1"/>
+									<listOptionValue builtIn="false" value="UCHAR_TYPE=uint16_t"/>
+									<listOptionValue builtIn="false" value="UCONFIG_ONLY_HTML_CONVERSION=1"/>
+									<listOptionValue builtIn="false" value="UNIT_TEST"/>
+									<listOptionValue builtIn="false" value="USE_ALLOCA"/>
+									<listOptionValue builtIn="false" value="USE_AURA=1"/>
+									<listOptionValue builtIn="false" value="USE_BUILTIN_SW_CODECS"/>
+									<listOptionValue builtIn="false" value="USE_CHROMIUM_ICU=1"/>
+									<listOptionValue builtIn="false" value="USE_GLIB=1"/>
+									<listOptionValue builtIn="false" value="USE_LIBJPEG_TURBO=1"/>
+									<listOptionValue builtIn="false" value="USE_NSS_CERTS=1"/>
+									<listOptionValue builtIn="false" value="USE_UDEV"/>
+									<listOptionValue builtIn="false" value="USE_X11=1"/>
+									<listOptionValue builtIn="false" value="U_CHARSET_IS_UTF8=1"/>
+									<listOptionValue builtIn="false" value="U_COMMON_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="U_ENABLE_DYLOAD=0"/>
+									<listOptionValue builtIn="false" value="U_I18N_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="U_ICUDATAENTRY_IN_COMMON"/>
+									<listOptionValue builtIn="false" value="U_STATIC_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="U_USING_ICU_NAMESPACE=0"/>
+									<listOptionValue builtIn="false" value="V8_DEPRECATION_WARNINGS"/>
+									<listOptionValue builtIn="false" value="WEBRTC_APM_DEBUG_DUMP=0"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_ILBC"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_ISAC"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_OPUS"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_RED"/>
+									<listOptionValue builtIn="false" value="WEBRTC_DUMMY_FILE_DEVICES"/>
+									<listOptionValue builtIn="false" value="WEBRTC_ENABLE_PROTOBUF=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE"/>
+									<listOptionValue builtIn="false" value="WEBRTC_LIBRARY_IMPL"/>
+									<listOptionValue builtIn="false" value="WEBRTC_LINUX"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NON_STATIC_TRACE_EVENT_HANDLERS=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NS_FLOAT"/>
+									<listOptionValue builtIn="false" value="WEBRTC_OPUS_SUPPORT_120MS_PTIME=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_OPUS_VARIABLE_COMPLEXITY=0"/>
+									<listOptionValue builtIn="false" value="WEBRTC_POSIX"/>
+									<listOptionValue builtIn="false" value="WEBRTC_THREAD_RR"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_ILBC=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_ISAC_FIX=0"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_ISAC_FLOAT=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_OPUS=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_H264"/>
+									<listOptionValue builtIn="false" value="WITH_SIMD"/>
+									<listOptionValue builtIn="false" value="X86_ASM"/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="_GNU_SOURCE"/>
+									<listOptionValue builtIn="false" value="_ISOC99_SOURCE"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE_SOURCE"/>
+									<listOptionValue builtIn="false" value="_POSIX_C_SOURCE=200112"/>
+									<listOptionValue builtIn="false" value="_XOPEN_SOURCE=600"/>
+									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
+									<listOptionValue builtIn="false" value="__STDC_FORMAT_MACROS"/>
+									<listOptionValue builtIn="false" value="__Userspace__"/>
+									<listOptionValue builtIn="false" value="__Userspace_os_Linux"/>
+									<listOptionValue builtIn="false" value="ENABLE_RTC_EVENT_LOG"/>
+									<listOptionValue builtIn="false" value="GOOGLE_PROTOBUF_NO_RTTI"/>
+									<listOptionValue builtIn="false" value="GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER"/>
+									<listOptionValue builtIn="false" value="HAVE_PTHREAD"/>
+									<listOptionValue builtIn="false" value="HAVE_ZLIB"/>
+									<listOptionValue builtIn="false" value="LINUX_ALSA"/>
+									<listOptionValue builtIn="false" value="LINUX_PULSE"/>
+									<listOptionValue builtIn="false" value="OPUS_WILL_BE_SLOW"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_X11"/>
+									<listOptionValue builtIn="false" value="WTF_USE_DYNAMIC_ANNOTATIONS=1"/>
+									<listOptionValue builtIn="false" value="_DEBUG"/>
+									<listOptionValue builtIn="false" value="CR_SYSROOT_HASH=e7c53f04bd88d29d075bfd1f62b073aeb69cbe09"/>
+									<listOptionValue builtIn="false" value="WEBRTC_AUDIOPROC_DEBUG_DUMP"/>
+									<listOptionValue builtIn="false" value="WEBRTC_AUDIOPROC_FLOAT_PROFILE"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NETEQ_UNITTEST_BITEXACT"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NETWORK_TESTER_PROTO"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NETWORK_TESTER_TEST_ENABLED"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.dialect.std.702323937" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.cpp.compiler.dialect.c++1y" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1384171237" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1612714306" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.exe.debug.option.optimization.level.1420366161" name="Optimization Level" superClass="gnu.c.compiler.exe.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.max" id="gnu.c.compiler.exe.debug.option.debugging.level.1406767947" name="Debug Level" superClass="gnu.c.compiler.exe.debug.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.1760109919" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/base/third_party/libevent/linux/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/gen/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/gen/third_party/yasm/gen_include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/abseil-cpp/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/boringssl/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/chromium/config/ChromeOS/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/include/freetype-custom-config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/custom/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googlemock/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googletest/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googletest/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/harfbuzz-ng/src/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/icu/source/common/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/icu/source/i18n/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/overrides/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/source/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/source/src/lib_json/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libjpeg_turbo/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libpng/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/crypto/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/config/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/libvpx/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libyuv/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/api/svc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/arm/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/x86/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/core/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/core/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/plus/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/plus/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/interface/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/adaptivequantization/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/backgrounddetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/common/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/complexityanalysis/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/denoise/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/downsample/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/imagerotate/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/scenechangedetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/scrolldetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/vaacalc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/celt/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/silk/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/silk/float/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/usrsctplib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/yasm/source/config/linux/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/yasm/source/patched-yasm/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/zlib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/chromium/config/Chrome/linux/x64/"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.838216638" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ABSL_ALLOCATOR_NOTHROW=1"/>
+									<listOptionValue builtIn="false" value="ADLER32_SIMD_SSSE3"/>
+									<listOptionValue builtIn="false" value="BORINGSSL_ALLOW_CXX_RUNTIME"/>
+									<listOptionValue builtIn="false" value="BORINGSSL_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="BORINGSSL_NO_STATIC_INITIALIZER"/>
+									<listOptionValue builtIn="false" value="BWE_TEST_LOGGING_COMPILE_TIME_ENABLE=0"/>
+									<listOptionValue builtIn="false" value="CHROMIUM_BUILD"/>
+									<listOptionValue builtIn="false" value="CHROMIUM_RESTRICT_VISIBILITY"/>
+									<listOptionValue builtIn="false" value="CPU_INFO_BY_ASM"/>
+									<listOptionValue builtIn="false" value="CRC32_SIMD_SSE42_PCLMUL"/>
+									<listOptionValue builtIn="false" value="CR_CLANG_REVISION=&quot;346388-5&quot;"/>
+									<listOptionValue builtIn="false" value="DYNAMIC_ANNOTATIONS_ENABLED=1"/>
+									<listOptionValue builtIn="false" value="FFMPEG_CONFIGURATION=NULL"/>
+									<listOptionValue builtIn="false" value="FIELDTRIAL_TESTING_ENABLED"/>
+									<listOptionValue builtIn="false" value="FT2_BUILD_LIBRARY"/>
+									<listOptionValue builtIn="false" value="FT_CONFIG_CONFIG_H=&quot;freetype-custom-config/ftconfig.h&quot;"/>
+									<listOptionValue builtIn="false" value="FT_CONFIG_MODULES_H=&quot;freetype-custom-config/ftmodule.h&quot;"/>
+									<listOptionValue builtIn="false" value="FT_CONFIG_OPTIONS_H=&quot;freetype-custom-config/ftoption.h&quot;"/>
+									<listOptionValue builtIn="false" value="FULL_SAFE_BROWSING"/>
+									<listOptionValue builtIn="false" value="GLIB_VERSION_MAX_ALLOWED=GLIB_VERSION_2_32"/>
+									<listOptionValue builtIn="false" value="GLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_26"/>
+									<listOptionValue builtIn="false" value="GTEST_API_"/>
+									<listOptionValue builtIn="false" value="GTEST_DISABLE_PRINT_STACK_TRACE"/>
+									<listOptionValue builtIn="false" value="GTEST_HAS_ABSL=1"/>
+									<listOptionValue builtIn="false" value="GTEST_HAS_POSIX_RE=0"/>
+									<listOptionValue builtIn="false" value="GTEST_HAS_TR1_TUPLE=0"/>
+									<listOptionValue builtIn="false" value="GTEST_LANG_CXX11=1"/>
+									<listOptionValue builtIn="false" value="GTEST_RELATIVE_PATH"/>
+									<listOptionValue builtIn="false" value="HAVE_ALLOCA_H"/>
+									<listOptionValue builtIn="false" value="HAVE_ARPA_INET_H"/>
+									<listOptionValue builtIn="false" value="HAVE_AV_CONFIG_H"/>
+									<listOptionValue builtIn="false" value="HAVE_CONFIG_H"/>
+									<listOptionValue builtIn="false" value="HAVE_DLOPEN=0"/>
+									<listOptionValue builtIn="false" value="HAVE_FCNTL_H"/>
+									<listOptionValue builtIn="false" value="HAVE_ICU"/>
+									<listOptionValue builtIn="false" value="HAVE_ICU_BUILTIN"/>
+									<listOptionValue builtIn="false" value="HAVE_INT16_T"/>
+									<listOptionValue builtIn="false" value="HAVE_INT32_T"/>
+									<listOptionValue builtIn="false" value="HAVE_INT8_T"/>
+									<listOptionValue builtIn="false" value="HAVE_INTEL_ATOMIC_PRIMITIVES"/>
+									<listOptionValue builtIn="false" value="HAVE_INTTYPES_H"/>
+									<listOptionValue builtIn="false" value="HAVE_JPEG"/>
+									<listOptionValue builtIn="false" value="HAVE_LRINT"/>
+									<listOptionValue builtIn="false" value="HAVE_LRINTF"/>
+									<listOptionValue builtIn="false" value="HAVE_NETINET_IN_H"/>
+									<listOptionValue builtIn="false" value="HAVE_OT"/>
+									<listOptionValue builtIn="false" value="HAVE_SCTP"/>
+									<listOptionValue builtIn="false" value="HAVE_STDINT_H"/>
+									<listOptionValue builtIn="false" value="HAVE_STDLIB_H"/>
+									<listOptionValue builtIn="false" value="HAVE_STRING_H"/>
+									<listOptionValue builtIn="false" value="HAVE_SYS_TYPES_H"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT16_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT32_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT64_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UINT8_T"/>
+									<listOptionValue builtIn="false" value="HAVE_UNISTD_H"/>
+									<listOptionValue builtIn="false" value="HAVE_WEBRTC_VIDEO"/>
+									<listOptionValue builtIn="false" value="HAVE_WEBRTC_VOICE"/>
+									<listOptionValue builtIn="false" value="HB_NO_MMAP"/>
+									<listOptionValue builtIn="false" value="ICU_UTIL_DATA_IMPL=ICU_UTIL_DATA_FILE"/>
+									<listOptionValue builtIn="false" value="INFLATE_CHUNK_READ_64LE"/>
+									<listOptionValue builtIn="false" value="INFLATE_CHUNK_SIMD_SSE2"/>
+									<listOptionValue builtIn="false" value="JSON_USE_EXCEPTION=0"/>
+									<listOptionValue builtIn="false" value="NDEBUG"/>
+									<listOptionValue builtIn="false" value="NON_WINDOWS_DEFINE"/>
+									<listOptionValue builtIn="false" value="NO_GETENV"/>
+									<listOptionValue builtIn="false" value="NVALGRIND"/>
+									<listOptionValue builtIn="false" value="OPENSSL"/>
+									<listOptionValue builtIn="false" value="OPENSSL_SMALL"/>
+									<listOptionValue builtIn="false" value="OPUS_BUILD"/>
+									<listOptionValue builtIn="false" value="OPUS_EXPORT"/>
+									<listOptionValue builtIn="false" value="OPUS_HAVE_RTCD"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_AVX"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_SSE"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_SSE2"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_MAY_HAVE_SSE4_1"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_PRESUME_SSE"/>
+									<listOptionValue builtIn="false" value="OPUS_X86_PRESUME_SSE2"/>
+									<listOptionValue builtIn="false" value="PACKAGE_STRING=&quot;libsrtp2 2.1.0-pre&quot;"/>
+									<listOptionValue builtIn="false" value="PACKAGE_VERSION=&quot;2.1.0-pre&quot;"/>
+									<listOptionValue builtIn="false" value="PDFIUM_REQUIRED_MODULES"/>
+									<listOptionValue builtIn="false" value="PIC"/>
+									<listOptionValue builtIn="false" value="PNG_INTEL_SSE_OPT=1"/>
+									<listOptionValue builtIn="false" value="PNG_SET_OPTION_SUPPORTED"/>
+									<listOptionValue builtIn="false" value="RTC_ENABLE_VP9"/>
+									<listOptionValue builtIn="false" value="SAFE_BROWSING_CSD"/>
+									<listOptionValue builtIn="false" value="SAFE_BROWSING_DB_LOCAL"/>
+									<listOptionValue builtIn="false" value="SCTP_PROCESS_LEVEL_LOCKS"/>
+									<listOptionValue builtIn="false" value="SCTP_SIMPLE_ALLOCATOR"/>
+									<listOptionValue builtIn="false" value="SCTP_USE_OPENSSL_SHA1"/>
+									<listOptionValue builtIn="false" value="UCHAR_TYPE=uint16_t"/>
+									<listOptionValue builtIn="false" value="UCONFIG_ONLY_HTML_CONVERSION=1"/>
+									<listOptionValue builtIn="false" value="UNIT_TEST"/>
+									<listOptionValue builtIn="false" value="USE_ALLOCA"/>
+									<listOptionValue builtIn="false" value="USE_AURA=1"/>
+									<listOptionValue builtIn="false" value="USE_BUILTIN_SW_CODECS"/>
+									<listOptionValue builtIn="false" value="USE_CHROMIUM_ICU=1"/>
+									<listOptionValue builtIn="false" value="USE_GLIB=1"/>
+									<listOptionValue builtIn="false" value="USE_LIBJPEG_TURBO=1"/>
+									<listOptionValue builtIn="false" value="USE_NSS_CERTS=1"/>
+									<listOptionValue builtIn="false" value="USE_UDEV"/>
+									<listOptionValue builtIn="false" value="USE_X11=1"/>
+									<listOptionValue builtIn="false" value="U_CHARSET_IS_UTF8=1"/>
+									<listOptionValue builtIn="false" value="U_COMMON_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="U_ENABLE_DYLOAD=0"/>
+									<listOptionValue builtIn="false" value="U_I18N_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="U_ICUDATAENTRY_IN_COMMON"/>
+									<listOptionValue builtIn="false" value="U_STATIC_IMPLEMENTATION"/>
+									<listOptionValue builtIn="false" value="U_USING_ICU_NAMESPACE=0"/>
+									<listOptionValue builtIn="false" value="V8_DEPRECATION_WARNINGS"/>
+									<listOptionValue builtIn="false" value="WEBRTC_APM_DEBUG_DUMP=0"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_ILBC"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_ISAC"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_OPUS"/>
+									<listOptionValue builtIn="false" value="WEBRTC_CODEC_RED"/>
+									<listOptionValue builtIn="false" value="WEBRTC_DUMMY_FILE_DEVICES"/>
+									<listOptionValue builtIn="false" value="WEBRTC_ENABLE_PROTOBUF=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_INCLUDE_INTERNAL_AUDIO_DEVICE"/>
+									<listOptionValue builtIn="false" value="WEBRTC_LIBRARY_IMPL"/>
+									<listOptionValue builtIn="false" value="WEBRTC_LINUX"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NON_STATIC_TRACE_EVENT_HANDLERS=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NS_FLOAT"/>
+									<listOptionValue builtIn="false" value="WEBRTC_OPUS_SUPPORT_120MS_PTIME=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_OPUS_VARIABLE_COMPLEXITY=0"/>
+									<listOptionValue builtIn="false" value="WEBRTC_POSIX"/>
+									<listOptionValue builtIn="false" value="WEBRTC_THREAD_RR"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_ILBC=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_ISAC_FIX=0"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_ISAC_FLOAT=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_BUILTIN_OPUS=1"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_H264"/>
+									<listOptionValue builtIn="false" value="WITH_SIMD"/>
+									<listOptionValue builtIn="false" value="X86_ASM"/>
+									<listOptionValue builtIn="false" value="_FILE_OFFSET_BITS=64"/>
+									<listOptionValue builtIn="false" value="_GNU_SOURCE"/>
+									<listOptionValue builtIn="false" value="_ISOC99_SOURCE"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE64_SOURCE"/>
+									<listOptionValue builtIn="false" value="_LARGEFILE_SOURCE"/>
+									<listOptionValue builtIn="false" value="_POSIX_C_SOURCE=200112"/>
+									<listOptionValue builtIn="false" value="_XOPEN_SOURCE=600"/>
+									<listOptionValue builtIn="false" value="__STDC_CONSTANT_MACROS"/>
+									<listOptionValue builtIn="false" value="__STDC_FORMAT_MACROS"/>
+									<listOptionValue builtIn="false" value="__Userspace__"/>
+									<listOptionValue builtIn="false" value="__Userspace_os_Linux"/>
+									<listOptionValue builtIn="false" value="ENABLE_RTC_EVENT_LOG"/>
+									<listOptionValue builtIn="false" value="GOOGLE_PROTOBUF_NO_RTTI"/>
+									<listOptionValue builtIn="false" value="GOOGLE_PROTOBUF_NO_STATIC_INITIALIZER"/>
+									<listOptionValue builtIn="false" value="HAVE_PTHREAD"/>
+									<listOptionValue builtIn="false" value="HAVE_ZLIB"/>
+									<listOptionValue builtIn="false" value="LINUX_ALSA"/>
+									<listOptionValue builtIn="false" value="LINUX_PULSE"/>
+									<listOptionValue builtIn="false" value="OPUS_WILL_BE_SLOW"/>
+									<listOptionValue builtIn="false" value="WEBRTC_USE_X11"/>
+									<listOptionValue builtIn="false" value="WTF_USE_DYNAMIC_ANNOTATIONS=1"/>
+									<listOptionValue builtIn="false" value="_DEBUG"/>
+									<listOptionValue builtIn="false" value="CR_SYSROOT_HASH=e7c53f04bd88d29d075bfd1f62b073aeb69cbe09"/>
+									<listOptionValue builtIn="false" value="WEBRTC_AUDIOPROC_DEBUG_DUMP"/>
+									<listOptionValue builtIn="false" value="WEBRTC_AUDIOPROC_FLOAT_PROFILE"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NETEQ_UNITTEST_BITEXACT"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NETWORK_TESTER_PROTO"/>
+									<listOptionValue builtIn="false" value="WEBRTC_NETWORK_TESTER_TEST_ENABLED"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.2080000689" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1051999651" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.debug.672964471" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug.210263255" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.debug">
+								<option id="gnu.cpp.link.option.paths.526289554" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/obj"/>
+									<listOptionValue builtIn="false" value="/usr/lib/x86_64-linux-gnu"/>
+								</option>
+								<option id="gnu.cpp.link.option.libs.322940263" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" useByScannerDiscovery="false" valueType="libs">
+									<listOptionValue builtIn="false" value="webrtc"/>
+									<listOptionValue builtIn="false" value="swresample"/>
+									<listOptionValue builtIn="false" value="avcodec"/>
+									<listOptionValue builtIn="false" value="swscale"/>
+									<listOptionValue builtIn="false" value="rtmp"/>
+									<listOptionValue builtIn="false" value="hiredis"/>
+									<listOptionValue builtIn="false" value="curl"/>
+									<listOptionValue builtIn="false" value="opencv_videoio"/>
+									<listOptionValue builtIn="false" value="opencv_highgui"/>
+									<listOptionValue builtIn="false" value="opencv_imgproc"/>
+									<listOptionValue builtIn="false" value="opencv_xphoto"/>
+									<listOptionValue builtIn="false" value="opencv_objdetect"/>
+									<listOptionValue builtIn="false" value="opencv_imgcodecs"/>
+									<listOptionValue builtIn="false" value="opencv_core"/>
+									<listOptionValue builtIn="false" value="glib-2.0"/>
+									<listOptionValue builtIn="false" value="mp3lame"/>
+									<listOptionValue builtIn="false" value="x264"/>
+									<listOptionValue builtIn="false" value="rt"/>
+									<listOptionValue builtIn="false" value="cpprest"/>
+									<listOptionValue builtIn="false" value="boost_system"/>
+									<listOptionValue builtIn="false" value="dl"/>
+									<listOptionValue builtIn="false" value="X11"/>
+									<listOptionValue builtIn="false" value="pthread"/>
+								</option>
+								<option id="gnu.cpp.link.option.userobjs.2101734202" name="Other objects" superClass="gnu.cpp.link.option.userobjs" useByScannerDiscovery="false" valueType="userObjs">
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc/src/out/x64/obj/third_party/jsoncpp/jsoncpp/json_writer.o"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc/src/out/x64/obj/third_party/jsoncpp/jsoncpp/json_reader.o"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc/src/out/x64/obj/third_party/jsoncpp/jsoncpp/json_value.o"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1027361" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.debug.315278005" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.877072056" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/base/third_party/libevent/linux/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/gen/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/out/x64/gen/third_party/yasm/gen_include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/abseil-cpp/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/boringssl/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/chromium/config/ChromeOS/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/include/freetype-custom-config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/freetype/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/custom/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googlemock/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googletest/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/googletest/src/googletest/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/harfbuzz-ng/src/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/icu/source/common/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/icu/source/i18n/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/overrides/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/source/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/jsoncpp/source/src/lib_json/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libjpeg_turbo/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libpng/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/crypto/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libsrtp/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/config/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/config/linux/x64/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libvpx/source/libvpx/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/libyuv/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/api/svc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/arm/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/common/x86/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/core/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/core/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/plus/inc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/encoder/plus/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/interface/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/adaptivequantization/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/backgrounddetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/common/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/complexityanalysis/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/denoise/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/downsample/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/imagerotate/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/scenechangedetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/scrolldetection/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/openh264/src/codec/processing/src/vaacalc/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/celt/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/include/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/silk/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/opus/src/silk/float/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/usrsctplib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/usrsctp/usrsctplib/usrsctplib/netinet/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/yasm/source/config/linux/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/yasm/source/patched-yasm/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/zlib/"/>
+									<listOptionValue builtIn="false" value="/home/sangmin/webrtc-version/test/webrtc/src/third_party/ffmpeg/chromium/config/Chrome/linux/x64/"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.306679870" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.exe.release.761373031">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.exe.release.761373031" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.exe.release.761373031" name="Release" parent="cdt.managedbuild.config.gnu.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.exe.release.761373031." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.exe.release.1068022853" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.exe.release.1870327181" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.exe.release"/>
+							<builder buildPath="${workspace_loc:/WebRTC_SFU_OldLib}/Release" id="cdt.managedbuild.target.gnu.builder.exe.release.1847549668" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1874711191" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.681600929" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.exe.release">
+								<option id="gnu.cpp.compiler.exe.release.option.optimization.level.2070011586" name="Optimization Level" superClass="gnu.cpp.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option defaultValue="gnu.cpp.compiler.debugging.level.none" id="gnu.cpp.compiler.exe.release.option.debugging.level.113939614" name="Debug Level" superClass="gnu.cpp.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1766387462" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.exe.release.595862587" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.exe.release.option.optimization.level.251137810" name="Optimization Level" superClass="gnu.c.compiler.exe.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option defaultValue="gnu.c.debugging.level.none" id="gnu.c.compiler.exe.release.option.debugging.level.368517189" name="Debug Level" superClass="gnu.c.compiler.exe.release.option.debugging.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2109567098" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.exe.release.1441286274" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.exe.release.1213345807" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.604979660" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.exe.release.1551596068" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2121735016" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="WebRTC_SFU_OldLib.cdt.managedbuild.target.gnu.exe.1816457275" name="Executable" projectType="cdt.managedbuild.target.gnu.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.761373031;cdt.managedbuild.config.gnu.exe.release.761373031.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.595862587;cdt.managedbuild.tool.gnu.c.compiler.input.2109567098">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1269009735;cdt.managedbuild.config.gnu.exe.debug.1269009735.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.2029647380;cdt.managedbuild.tool.gnu.cpp.compiler.input.1384171237">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.761373031;cdt.managedbuild.config.gnu.exe.release.761373031.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.681600929;cdt.managedbuild.tool.gnu.cpp.compiler.input.1766387462">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.1269009735;cdt.managedbuild.config.gnu.exe.debug.1269009735.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1612714306;cdt.managedbuild.tool.gnu.c.compiler.input.1051999651">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/WebRTC_SFU_OldLib"/>
+		</configuration>
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/WebRTC_SFU_OldLib"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

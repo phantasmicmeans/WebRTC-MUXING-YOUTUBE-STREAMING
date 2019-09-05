@@ -1,0 +1,19 @@
+SignalProcessor::SignalProcessor > url:wss://clouddev.gigagenie.ai:40081/wsapi/v1
+WebRTCProcessor::WebRTCProcessor > handleId:SignalProcessor::sendMsg
+SignalProcessor::startSignaling > Connect To Signaling Server. by handleId:SignalProcessor::sendMsg
+SignalProcessor::startSignaling > Enter msgRecvLoop
+Signalprocessor::connect > Websocket connected
+SignalProcessor::startSignaling > Received Msg:{"operation":"WHO"}
+SignalProcessor::processRecvMsg > Operation:WHO
+SignalProcessor::processRecvMsg > Operation WHO
+SignalProcessor::sendMsg > Res_WHO msg:{
+   "handle_id" : "SignalProcessor::sendMsg",
+   "operation" : "IAM",
+   "signature" : "test",
+   "timestamp" : "test"
+}
+
+SignalProcessor::sendMsg > Send Msg Success
+out_codec_video libx264
+out_codec_audiolibmp3lame
+SignalProcessor::SignalProcessor > Websocket Closed
